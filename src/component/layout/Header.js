@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="block space-y-4 text-fade-black py-14 md:py-20">
+    <div className="block space-y-4 text-fade-black py-14 md:pt-20">
       <div className="text-2xl text-black">Welcome to my portfolio</div>
       <div className="text-sm md:text-base opacity-50">
         Full Stack Developer with over 10 years of experience in Java/JS,
