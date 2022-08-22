@@ -1,19 +1,15 @@
 import React from "react";
-import Header from "./component/layout/Header";
-import Works from "./component/layout/Works";
-import Experience from "./component/layout/Experience";
-import Footer from "./component/layout/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Home, Work } from "./pages/index";
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        <Header />
-        <Works />
-        <Experience />
-        <Footer />
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/work" element={<Work />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
