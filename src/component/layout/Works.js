@@ -1,21 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// import p from "../../assets/images/../images/";
 
 const Works = () => {
   const works = [
     {
       id: "1",
-      img: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      title: "Contact Keeper App",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit Voluptatibus quia, Nonea! Maiores et perferendis eaque,exercitationem praesentium nihil.",
-      url: "/",
+      img: "../../assets/images/work1.png",
+      title: "Music Blog web app (UI)",
+      desc: "Music Blog frontend development with dynamic pages and search function, Album & single music component",
+      url: "https://youthful-archimedes-9c6917.netlify.app/",
     },
     {
-      id: "1",
-      img: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      title: "Contact Keeper App",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit Voluptatibus quia, Nonea! Maiores et perferendis eaque,exercitationem praesentium nihil.",
-      url: "/",
+      id: "2",
+      img: "../../assets/images/work2.png",
+      title: "Portfolio web app",
+      desc: "Designer frontend portfolio website with slide and on hover images effect",
+      url: "https://loving-clarke-f0b77a.netlify.app/",
     },
   ];
 

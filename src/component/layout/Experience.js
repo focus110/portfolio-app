@@ -5,16 +5,16 @@ const Experience = () => {
     {
       id: "1",
       title: " Client Side",
-      desc: "HTML, CSS, JS, Angular, React, Vue, Redux, TypeScript, Backbone, Bootstrap",
+      desc: "HTML, CSS, JS, React, Next, Context api, Redux, TypeScript, Jwt, Bootstrap, Tailwind css",
     },
     {
       id: "2",
       title: "Server Side",
-      desc: "PythonNum, TensorFlow, MySQL, NodeJS, Redis, AWS, MongoDB, Spark, HTTP/2",
+      desc: "MySQL, NodeJS, Firebase, MongoDB, Rest Api, HTTP/2",
     },
     {
       id: "2",
-      title: "Development & Operations",
+      title: "Intrest Development & Operations",
       desc: "JUnit, NUnit, PyUnit, TestCafe, Mocha, Jest, Scrum, Agile, GIT, Azure DevOps",
     },
   ];
@@ -26,7 +26,7 @@ const Experience = () => {
         {skills.map((skill, i) => {
           return (
             <div key={skill.id}>
-              <div> {skill.title}</div>
+              <div className="font-semibold"> {skill.title}</div>
               <div>{skill.desc}</div>
             </div>
           );
