@@ -7,8 +7,10 @@ const Footer = () => {
 
       <div className="">
         <ul className="flex items-center justify-center space-x-6">
-          <li>Twitter</li>
-          <li>Git</li>
+          {/* <li>Twitter</li> */}
+          <li>
+            <a href="https://github.com/ochukoemmanuel">Git</a>
+          </li>
         </ul>
       </div>
     </div>

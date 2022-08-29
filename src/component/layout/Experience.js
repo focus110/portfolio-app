@@ -10,7 +10,7 @@ const Experience = () => {
     {
       id: "2",
       title: "Server Side",
-      desc: "MySQL, NodeJS, Firebase, MongoDB, Rest Api, HTTP/2",
+      desc: "MySQL DB, SQL, NodeJS, Firebase, MongoDB, Rest Api, HTTP/2",
     },
     {
       id: "2",
