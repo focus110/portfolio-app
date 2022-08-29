@@ -5,7 +5,7 @@ const Experience = () => {
     {
       id: "1",
       title: " Client Side",
-      desc: "HTML, CSS, JS, React, Next, Context api, Redux, TypeScript, Jwt, Bootstrap, Tailwind css",
+      desc: "HTML, CSS, JS, React js, Next js, Context api, Redux, TypeScript, Jwt, Bootstrap, Tailwind css",
     },
     {
       id: "2",
